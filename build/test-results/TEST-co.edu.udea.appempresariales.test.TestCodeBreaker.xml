@@ -1,0 +1,15 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="co.edu.udea.appempresariales.test.TestCodeBreaker" tests="9" failures="0" errors="0" timestamp="2015-07-18T14:57:13" hostname="localhost.localdomain" time="0.013">
+  <properties/>
+  <testcase name="testAnyNumber" classname="co.edu.udea.appempresariales.test.TestCodeBreaker" time="0.003"/>
+  <testcase name="testAllNumbers" classname="co.edu.udea.appempresariales.test.TestCodeBreaker" time="0.0"/>
+  <testcase name="testThreeNumbersDisorder" classname="co.edu.udea.appempresariales.test.TestCodeBreaker" time="0.0"/>
+  <testcase name="testTwoNumbersDisorderOneNumberOrder" classname="co.edu.udea.appempresariales.test.TestCodeBreaker" time="0.0"/>
+  <testcase name="testTwoNumbersDisorder" classname="co.edu.udea.appempresariales.test.TestCodeBreaker" time="0.0"/>
+  <testcase name="testThreeNumbers" classname="co.edu.udea.appempresariales.test.TestCodeBreaker" time="0.0"/>
+  <testcase name="testOneNumberDisorder" classname="co.edu.udea.appempresariales.test.TestCodeBreaker" time="0.0"/>
+  <testcase name="testTwoNumbers" classname="co.edu.udea.appempresariales.test.TestCodeBreaker" time="0.0"/>
+  <testcase name="testOneNumber" classname="co.edu.udea.appempresariales.test.TestCodeBreaker" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

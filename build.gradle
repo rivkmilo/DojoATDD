@@ -1,0 +1,48 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+
+//Se define el encoding con el que se compila
+[ compileJava, compileTestJava ]*.options*.encoding = 'ISO-8859-1'
+
+//Se asegura la compatibilidad con Java 1.7
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+/*
+Los sourceset por defecto de gradle son:
+Fuentes principales
+- src/main/java
+- src/main/resources
+- src/test/java
+- src/test/resources
+*/
+
+sourceSets{
+	main{
+		java{
+			srcDir 'src'
+		}
+	}
+	test{
+		java{
+			srcDir 'test'
+		}
+	}
+}
+
+repositories{
+	mavenCentral()
+}
+
+dependencies{
+	testCompile 'junit:junit:4.11'
+}
+
+test{
+	jacoco{
+		toolVersion = '0.7.1.201405082137'
+		destinationFile	= file("build/jacoco/jacoco.exec")
+		append = true
+	}
+}
+
