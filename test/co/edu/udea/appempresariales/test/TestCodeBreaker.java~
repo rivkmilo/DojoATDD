@@ -25,7 +25,7 @@ public class TestCodeBreaker {
 		userNumber= "1678";
 		String resultado = codeBreaker.guessNumber(userNumber);
 		
-		assertEquals("X", resultado);
+		assertEquals("----------", resultado);
 	}
 
 	@Test
